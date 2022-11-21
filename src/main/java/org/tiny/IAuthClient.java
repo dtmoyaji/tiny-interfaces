@@ -1,5 +1,7 @@
 package org.tiny;
 
+import java.util.HashMap;
+
 /**
  * ユーザー認証クラスの機能定義
  * @author DTMOyaji

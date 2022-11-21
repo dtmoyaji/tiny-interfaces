@@ -12,7 +12,7 @@ import java.util.logging.Logger;
 
 /**
  * プロパティファイルを読み込んで値を供給するクラス.
- *
+ * javaのプロパティ形式に対応している。
  * @author DtmOyaji
  */
 public class PropertyReader {
