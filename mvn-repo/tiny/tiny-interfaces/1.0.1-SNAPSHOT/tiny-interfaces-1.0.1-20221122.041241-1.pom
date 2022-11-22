@@ -123,7 +123,7 @@
                     <message>Maven artifacts for ${project.name} ${project.version}</message>
                     <merge>true</merge>
                     <noJekyll>true</noJekyll>
-                    <outputDirectory>${project.basedir}/mvn-repo</outputDirectory>
+                    <outputDirectory>${project.build.directory}/mvn-repo</outputDirectory>
                     <branch>refs/heads/master</branch>
                     <includes><include>**/*</include></includes>
                     <repositoryName>tiny-interfaces</repositoryName>
