@@ -10,7 +10,7 @@ import org.springframework.boot.SpringApplication;
 @Configuration
 @SpringBootApplication
 class App {
-    
+
     public App(){
         ScriptExecuter se = new ScriptExecuter();
         se.setScriptCode('println "HeyHoi"');
