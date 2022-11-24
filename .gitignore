@@ -1,3 +1,6 @@
+#Ignore IDE specific setting
+.vscode
+
 # Ignore Gradle project-specific cache directory
 .gradle
 gradlew
